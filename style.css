@@ -1,0 +1,653 @@
+:root {
+  --blue: #007bff;
+  --indigo: #6610f2;
+  --purple: #6f42c1;
+  --pink: #e83e8c;
+  --red: #dc3545;
+  --orange: #fd7e14;
+  --yellow: #ffc107;
+  --green: #28a745;
+  --teal: #20c997;
+  --cyan: #17a2b8;
+  --white: #fff;
+  --gray: #6c757d;
+  --gray-dark: #343a40;
+  --primary: #FFD333;
+  --secondary: #F5F5F5;
+  --success: #28a745;
+  --info: #17a2b8;
+  --warning: #ffc107;
+  --danger: #dc3545;
+  --light: #FFFFFF;
+  --dark: #3D464D;
+  --breakpoint-xs: 0;
+  --breakpoint-sm: 576px;
+  --breakpoint-md: 768px;
+  --breakpoint-lg: 992px;
+  --breakpoint-xl: 1200px;
+  --font-family-sans-serif: "Roboto", sans-serif;
+  --font-family-monospace: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+}
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+html {
+  font-family: sans-serif;
+  line-height: 1.15;
+  -webkit-text-size-adjust: 100%;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+
+}
+/* Midea */
+
+
+body{
+    background-color: white;
+    font-family: 'Manrope';
+    height: 100%;
+    position: relative;
+    width: 1200px;
+    height: 2919px;
+    
+    background: #FBFBFB;
+    
+  }
+
+.location{
+  height: 100%;
+}
+#logo{
+
+position: absolute;
+width: 127px;
+height: 47px;
+left: 64px;
+top: 10px;
+flex: auto;
+background: url(Midea_logo.png);
+
+}
+input.form-control{
+
+box-sizing: border-box;
+display: flex;
+position: absolute;
+width: 270px;
+height: 36px;
+left: 214px;
+top: 20px;
+
+border: 1px solid #E9E5E5;
+border-radius: 6px;
+}
+.iconamoon{
+
+position: absolute;
+width: 21px;
+height: 21px;
+left: 451px;
+top: 27px;
+}
+#locationicon{
+
+position: absolute;
+width: 33px;
+height: 33px;
+left: 531px;
+top: 21px;
+}
+.location{
+
+position: absolute;
+width: 127.5px;
+height: 41px;
+left: 575px;
+top: 17px;
+
+
+}
+#phoneicon{
+
+position: absolute;
+width: 36px;
+height: 36px;
+left: 718px;
+top: 21px;
+}
+
+
+
+.phone{
+
+position: absolute;
+width: 222px;
+height: 42px;
+left: 768px;
+top: 16px;
+
+}
+#rectangle{
+
+position: absolute;
+width: 171px;
+height: 72px;
+left: 960px;
+top: 6px;
+}
+#rectangle2{
+
+
+position: absolute;
+width: 1200px;
+height: 41px;
+left: 0px;
+top: 72px;
+}
+#rectangle3{
+/* Rectangle 3 */
+
+position: absolute;
+width: 210px;
+height: 41px;
+left: 70px;
+top: 72px;
+
+background: linear-gradient(94.19deg, #299AD4 -8.09%, #6BC9F9 97.98%);
+}
+#menu{
+
+position: absolute;
+width: 30px;
+height: 30px;
+left: 88px;
+top: 77px;
+}
+/* Каталог товаров */
+#katalog{
+position: absolute;
+width: 123px;
+height: 20px;
+left: 133px;
+top: 82px;
+
+font-family: 'Manrope';
+font-style: normal;
+font-weight: 600;
+font-size: 15px;
+line-height: 20px;
+
+color: #FFFFFF;
+}
+#t3{
+/* Координаты */
+
+position: absolute;
+width: 109px;
+height: 20px;
+left: 315px;
+top: 82px;
+
+font-family: 'Manrope';
+font-style: normal;
+font-weight: 500;
+font-size: 15px;
+line-height: 20px;
+
+color: #353B3F;
+
+
+}
+#t4{
+    /* О компании */
+
+position: absolute;
+width: 105px;
+height: 20px;
+left: 463px;
+top: 82px;
+
+font-family: 'Manrope';
+font-style: normal;
+font-weight: 500;
+font-size: 15px;
+line-height: 20px;
+
+color: #353B3F;
+
+
+}
+#t5{
+    /* Каталог */
+
+position: absolute;
+width: 72px;
+height: 20px;
+left: 608px;
+top: 82px;
+
+font-family: 'Manrope';
+font-style: normal;
+font-weight: 500;
+font-size: 15px;
+line-height: 20px;
+
+color: #353B3F;
+
+
+}
+#t6{
+  /* Вакансии */
+
+position: absolute;
+width: 85px;
+height: 20px;
+left: 720px;
+top: 82px;
+
+font-family: 'Manrope';
+font-style: normal;
+font-weight: 500;
+font-size: 15px;
+line-height: 20px;
+
+color: #353B3F;
+
+ 
+}
+#t7{
+    /* Контакты */
+
+position: absolute;
+width: 83px;
+height: 20px;
+left: 845px;
+top: 82px;
+
+font-family: 'Manrope';
+font-style: normal;
+font-weight: 500;
+font-size: 15px;
+line-height: 20px;
+
+color: #353B3F;
+
+
+}
+
+#t8{
+
+position: absolute;
+width: 64px;
+height: 20px;
+left: 969px;
+top: 82px;
+
+font-family: 'Manrope';
+font-style: normal;
+font-weight: 500;
+font-size: 15px;
+line-height: 20px;
+
+color: #353B3F;
+}
+#rectangle4{
+    /* Rectangle 6 */
+
+position: absolute;
+width: 1060px;
+height: 418px;
+left: 70px;
+top: 132px;
+
+background: url(паар.png);
+border-radius: 12px;
+
+}
+#ad1{
+/* pngwing.com 1 */
+
+position: absolute;
+width: 719px;
+height: 328px;
+left: 70px;
+top: 222px;
+
+background: url(pngwing.com.png);
+border-radius: 12px;
+
+}
+#ad2{
+  /* pngwing.com 2 */
+
+position: absolute;
+width: 358px;
+height: 507px;
+left: 772px;
+top: 43px;
+
+background: url(pngwing.com.png);
+border-radius: 12px;
+
+    
+    }
+    
+#logo2{
+  /* Midea_logo 2 */
+
+position: absolute;
+width: 128px;
+height: 42px;
+left: 964px;
+top: 152px;
+
+background: url(Midea_logo.png);
+
+    
+    }
+#ad3{
+  /* Без-имени-2-1320x573 1 */
+
+position: absolute;
+width: 468px;
+height: 218px;
+left: 662px;
+top: 248px;
+
+background: url(Без-имени-2-1320x573.png);
+
+    
+    }
+#vector{
+
+
+position: absolute;
+left: 205px;
+right: 80.5%;
+top: 495px;
+height: 12px;
+
+border: 0 solid #299AD4;
+
+
+}
+#t9{
+/* Посмотреть */
+
+position: absolute;
+width: 95px;
+height: 22px;
+left: 106px;
+top: 490px;
+
+font-family: 'Manrope';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 22px;
+/* identical to box height */
+
+color: #299AD4;
+}
+#smallrec{
+/* Group 12 */
+
+position: absolute;
+width: 131px;
+height: 4px;
+left: 535px;
+top: 520px;
+}
+#headline1{
+
+/* Новая линейка кондиционеров по выгодным ценам */
+
+position: absolute;
+width: 538px;
+height: 96px;
+left: 106px;
+top: 174px;
+
+font-family: 'Manrope';
+font-style: normal;
+font-weight: 600;
+font-size: 35px;
+line-height: 48px;
+
+color: #2B3135;
+}
+#headline2{
+/* Специальные предложения */
+
+position: absolute;
+width: 335px;
+height: 33px;
+left: 70px;
+top: 580px;
+
+font-family: 'Manrope';
+font-style: normal;
+font-weight: 700;
+font-size: 24px;
+line-height: 33px;
+/* identical to box height */
+
+color: #2B3135;
+
+
+}
+#vector2{
+/* Group 22 */
+
+position: absolute;
+width: 124px;
+height: 36px;
+left: 1008px;
+top: 581px;
+}
+
+#headline3{
+  /* Group 34 */
+
+position: absolute;
+width: 1200px;
+height: 34px;
+left: 0px;
+top: 634px;
+
+
+  }
+ #Cataloge2{
+  /* Group 35 */
+
+position: absolute;
+width: 1060px;
+height: 283px;
+left: 70px;
+top: 699px;
+ }
+ #Cataloge3{
+/* Group 32 */
+
+position: absolute;
+width: 1060px;
+height: 715px;
+left: 70px;
+top: 1012px;
+
+
+ }
+ #Cataloge4{
+
+  /* Group 41 */
+
+position: absolute;
+width: 1060px;
+height: 377px;
+left: 70px;
+top: 1757px;
+
+
+  
+   }
+   #Cataloge5{
+
+  /* Group 43 */
+
+position: absolute;
+width: 1598px;
+height: 756px;
+left: -398px;
+top: 2163px;
+
+
+    
+     }
+     #text1{
+      /* Бесплатная консультация */
+
+position: absolute;
+width: 315px;
+height: 33px;
+left: 70px;
+top: 2441px;
+
+font-family: 'Manrope';
+font-style: normal;
+font-weight: 700;
+font-size: 24px;
+line-height: 33px;
+/* identical to box height */
+
+color: #2B3135;
+
+
+     }
+     #Vector5{
+     /* Group 42 */
+
+position: absolute;
+width: 124px;
+height: 36px;
+left: 1006px;
+top: 2163px;
+
+     }
+     #text2{
+  /* Не можете определиться? Оставьте контакты и мы свяжемся с вами в ближайшее время */
+
+position: absolute;
+width: 501px;
+height: 44px;
+left: 70px;
+top: 2482px;
+
+font-family: 'Manrope';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 22px;
+
+color: rgba(53, 59, 63, 0.6);
+
+
+     }
+     #image2{
+      /* Group 46 */
+
+position: absolute;
+width: 800x;
+height: 558px;
+left: 488.49px;
+top: 2361px;
+
+
+     }
+     #image3{
+      /* modern-air-conditioner-snowy-background-promoting-cold-climate-solutions 1 */
+
+position: absolute;
+width: 1190px;
+height: 510px;
+left: 0px;
+top: 2409px;
+
+background: url(modern-air-conditioner-snowy-background-promoting-cold-climate-solutions.jpg);
+
+     }
+     .form-control2{
+
+/* Group 44 */
+
+position: absolute;
+width: 349px;
+height: 55px;
+left: 70px;
+top: 2555px;
+font-weight: bold;
+color: black;
+
+     }
+     .form-control3{
+
+/* Group 45 */
+
+position: absolute;
+width: 349px;
+height: 55px;
+left: 70px;
+top: 2623px;
+font-weight: bold;
+color: black;
+
+
+
+     }
+     #Rectangle5{
+/* Rectangle 13 */
+
+position: absolute;
+width: 349px;
+height: 55px;
+left: 70px;
+top: 2707px;
+
+background: linear-gradient(99.72deg, #299AD4 12.78%, #FFFFFF 171.85%);
+border-radius: 12px;
+
+     }
+     #text3{
+   /* Оставить заявку */
+
+position: absolute;
+width: 130px;
+height: 22px;
+left: 95px;
+top: 2724px;
+
+font-family: 'Manrope';
+font-style: normal;
+font-weight: 600;
+font-size: 16px;
+line-height: 22px;
+/* identical to box height */
+
+color: #FFFFFF;
+
+
+         }
+         #vector7{
+     
+       /* Vector */
+
+position: absolute;
+left: 32%;
+right: 65.42%;
+top: 93.35%;
+bottom: 5.89%;
+
+
+
+
+                }  
